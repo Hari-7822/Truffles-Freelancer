@@ -1,11 +1,16 @@
 @use './components/mixins' as fl;
-
+@use './components/clrfn' as cl; 
+@use './components/input';
 
 .head {
     
-    @include fl.flex(row, center, center);
+    @include fl.flex(row, center, space-evenly);
+    background :  cl.color(dark);
+    border-bottom: 1px solid #313131;
+    height: 3rem;
 
     &__logo {
+
         
         &__img{
             
