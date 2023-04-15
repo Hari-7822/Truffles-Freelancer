@@ -1,11 +1,11 @@
-import Nav from './Nav';
-
+import Header from './Header';
 const About = () => {
 
-    return (
-
-        <h2>About</h2>
-
+    return (    
+        <div>
+            <Header />
+            <h2>About</h2>
+        </div>
     )
 
 }
@@ -14,7 +14,7 @@ export default function disp() {
 
     return(
         <div>
-            <Nav />
+            
             <About/>
         </div>
     )

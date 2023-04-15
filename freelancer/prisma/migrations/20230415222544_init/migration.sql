@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "User" (
     "email" TEXT NOT NULL,
-    "name" TEXT NOT NULL,
+    "name" TEXT,
     "role" TEXT NOT NULL
 );
 

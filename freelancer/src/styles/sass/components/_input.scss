@@ -4,7 +4,7 @@ input[type="search"] , input[type="text"] , input[type="email"] {
     outline: none;
 
     border-radius: 12px;
-    height: 20px;
+    height: 22px;
     caret-color: #fff;
     color:#fff;
 
@@ -13,6 +13,20 @@ input[type="search"] , input[type="text"] , input[type="email"] {
     &:hover{
         border: none;
         outline: none;
+        // border-bottom : 1px solid #fff;
+    }
+
+}
+
+input[type="button"] , button {
+
+    border-radius : 25px;
+    background : #ff000000;
+    border: 0.7px solid #fff;
+    height: 25px;
+
+    &:hover {
+        background : #d7d7d717;
     }
 
 }

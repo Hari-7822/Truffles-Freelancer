@@ -15,13 +15,5 @@ model User {
   email	String @unique
   name	String?
   role	String
-  skills	String?
 
-}
-
-model projects {
-
-	skills String?
-	name String?
-	
 }

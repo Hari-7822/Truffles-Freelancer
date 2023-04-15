@@ -4,17 +4,21 @@
 
 .head {
     
-    @include fl.flex(row, center, space-evenly);
-    background :  cl.color(dark);
-    border-bottom: 1px solid #313131;
     height: 3rem;
+
+    @include fl.flex(row, center, space-evenly);
+    // background :  cl.color(dark);
+    border-bottom: 1px solid #313131;
+    box-shadow: 1px 2px #313131;
 
     &__logo {
 
         
         &__img{
-            
+            background : url("./components/img.png");
             border-radius : 99rem;
+            height:40px;
+            width: 40px;
             border : 1px solid #313131;
         
         }
@@ -22,3 +26,4 @@
     }
 
 }
+

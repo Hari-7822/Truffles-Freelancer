@@ -1,8 +1,17 @@
 @use './sass/header.scss';
-
+@use './sass/components/clrfn' as cl;
+@use './sass/components/input';
 * {
     border: 0;
     margin: 0;
 
-    
+    background: cl.color(darker);
+    color: #fff;
+}
+
+Link{
+
+    border : none;
+    outline: none;
+
 }
