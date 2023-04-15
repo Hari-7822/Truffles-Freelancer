@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Nav = () => {
 
-    return(
+    return (
 
         <>
             <Link href = "/" >Home</Link>
