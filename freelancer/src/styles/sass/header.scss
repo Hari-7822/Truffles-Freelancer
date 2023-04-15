@@ -3,7 +3,7 @@
 
 .head {
     
-    @include fl.flex(row, none, none);
+    @include fl.flex(row, center, center);
 
     &__logo {
         

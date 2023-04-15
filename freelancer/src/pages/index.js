@@ -1,18 +1,15 @@
 
-import { PrismaClient } from "@prisma/client";
-import { useState } from "react";
 
-import Header from './components/Header';
+import { useState } from "react";
+// import '../styles/index.css';
 
 export default function Home() {
 
-  const [text, fun] = useState();
-  
-
-  
+  // const [text, fun] = useState();
+   
 
   return (
     <>
-      <Header />
+      <h2>return</h2>    
     </>
   ) }
