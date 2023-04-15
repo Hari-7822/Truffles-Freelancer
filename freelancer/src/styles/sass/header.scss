@@ -1,0 +1,19 @@
+@use './components/mixins' as fl;
+
+
+.head {
+    
+    @include fl.flex(row, none, none);
+
+    &__logo {
+        
+        &__img{
+            
+            border-radius : 99rem;
+            border : 1px solid #313131;
+        
+        }
+
+    }
+
+}
