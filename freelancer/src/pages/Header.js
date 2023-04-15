@@ -6,11 +6,11 @@ const Header = () => {
     return (
         <div className="head">
             <div className="head__logo">
-                <img className="head__logo--img" src='../../styles/sass/components/img.png' alt="logo" />
+                <div className="head__logo--img"></div>
             </div>
 
             <div className="head__search">
-                <input type="search" className="head__search--box" />
+                <input type="search" placeholder="Search Something..." className="head__search--box" />
             </div>
 
             <Nav />

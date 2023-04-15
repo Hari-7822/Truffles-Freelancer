@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client"; 
 
-import { execSync } from "child_process";
+// import { execSync } from "child_process";
 
 const Prisma = new PrismaClient();
 
@@ -8,9 +8,11 @@ async function add() {
     const user = await Prisma.user.create({ // create entity
         data : {
         
-            name : 'Eren',
-            email : 'Eren@mail.com',
-            role : 'client',
+            name : 'Luffy',
+            email : 'Luffy@mail.com',
+            password: 'luffymeat',
+            role : 'Freelancer',
+            skills:'rubber'
 
         }
 
@@ -20,9 +22,9 @@ async function add() {
 
     console.log(find)
     
-    var x = execSync("npm run prisma-push")
+    // var x = execSync("npm run prisma-push")
 
-    x ? console.log("true") : console.log("False")
+    // x ? console.log("true"): console.log("false")
 }
 
 

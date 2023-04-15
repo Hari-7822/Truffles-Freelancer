@@ -5,11 +5,12 @@ const Nav = () => {
     return (
 
         <>
-            <Link href = "/" >Home</Link>
-            <Link href = "/About">About</Link>
-            
+            <Link id="link" href = "/" >Home</Link>
+            <Link id="link" href = "/About">About</Link>
+            <Link id="link" href="/profile">Profile</Link>
+
             <button className="login__btn">
-                <Link href= "/login" >Login</Link>
+                <Link id="link" href= "/login" >Login</Link>
             </button>
         </>
 
