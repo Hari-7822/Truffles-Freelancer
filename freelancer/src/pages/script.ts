@@ -1,47 +1,32 @@
 import { PrismaClient } from "@prisma/client"; 
+import './main.json';
 
-import { execSync } from "child_process";
+// import { execSync } from "child_process";
 
 const Prisma = new PrismaClient();
 
 async function add() {
-    const user = await Prisma.post.create({ // create entity
+    // const user = await Prisma.post.create({ // create entity
         
-        data: {
-            id : 2,
-            head: "Hacker",
-            desc: ["A professional black hat hacker is needed for mining and other cyber attacks "],
-            role: ["hacker", "blackhat", "cypersecurity", "forensic", "dev"]
-        }
-
-    })
-
-    // const f = await Prisma.user.findMany();
-    // return (
-    //     props:{
-    //         name: f
+    //     data: {
+    //         id : 2,
+    //         head: "Hacker",
+    //         desc: ["A professional black hat hacker is needed for mining and other cyber attacks "],
+    //         role: ["hacker", "blackhat", "cypersecurity", "forensic", "dev"]
     //     }
-    // ) //display all entities
 
-    // // console.log(find)
+    // })
+
+    const f = await Prisma.user.findMany();
+    // return (y) //display all entities
+
+    // console.log(find)
     
-    var x = execSync("npm run prisma-push")
+    // var x = execSync("npm run prisma-push")
 
-    x ? console.log("true"): console.log("false")
+    // x ? console.log("true"): console.log("false")
 }
-import txt from './Header';
-var c
-export async function f(c) {
-    const usr = await Prisma.post.findMany({
-        where:{
-            role: c
-        }
-    })
 
-    return {
-        usr
-    }
-}
 
 add()
 
