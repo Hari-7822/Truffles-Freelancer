@@ -1,0 +1,7 @@
+@use "./mixins" as m;
+
+.pro {
+
+    @include m.flex('column', 'center', 'center')
+
+}

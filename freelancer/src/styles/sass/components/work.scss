@@ -1,0 +1,9 @@
+@use './mixins' as m;
+
+.work {
+
+    @include m.flex(column, center, default);
+
+    border:1px solid #fbf6f6;
+
+}
