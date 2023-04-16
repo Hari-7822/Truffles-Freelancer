@@ -15,5 +15,13 @@ model User {
   email	String @unique
   name	String?
   role	String
+	skill	String[]
+}
+
+model Post {
+  id Int @unique @default(autoincrement())
+  head String
+  desc String[]
+  role String[]  
 
 }

@@ -5,12 +5,12 @@ import { useState } from "react";
 
 export default function Home() {
 
-  // const [text, fun] = useState();
+
    
 
   return (
     <>
       <Header />
-      <h2>{}</h2>
+      <h2></h2>
     </>
   ) }

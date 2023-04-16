@@ -1,17 +1,31 @@
 @use './sass/header.scss';
 @use './sass/components/clrfn' as cl;
+@use './sass/components/card.scss';
 @use './sass/components/input';
+@use './sass/components/work.scss';
+
 * {
     border: 0;
     margin: 0;
 
-    background: cl.color(darker);
     color: #fff;
 }
-
+body {
+background: linear-gradient(90deg, cl.color(reg), cl.color(darker));
+}
 Link{
 
     border : none;
     outline: none;
 
+}
+a, a:hover {
+    outline : none;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color : #3884d5;
 }
