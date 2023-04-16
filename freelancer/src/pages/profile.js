@@ -7,23 +7,24 @@ import {Container} from 'react-bootstrap'
 const Profile = () => {
 
     return (
-        <Container>
+        <Container >
             <Header />
             <Container >
                 
-                <h2 className="Name">Name</h2>
-                <Image src="" height={40} width={40} />
-                <li>tags</li>
-            
-                <h2>Work completed</h2>
+                <div class="c">
+                    <h2 className="Name">Name</h2>
+                    <img src="https://unsplash.it/50/50" height={40} width={40} />
+                    <li>tags</li>
+                    <h2>Work completed</h2>
+                </div>
 
-            <Container fluid className='work'>
+            <div className='work'>
                 <Work head="Work1" desc="lorem ipsum sit dolor amet"/>
                 <Work head="Work2" desc="lorem ipsum sit dolor amet"/>
                 <Work head="Work3" desc="lorem ipsum sit dolor amet"/>
                 <Work head="Work4" desc="lorem ipsum sit dolor amet"/>
                 <Work head="Work5" desc="lorem ipsum sit dolor amet"/>
-            </Container >
+            </div >
 
             </Container>
             <Container>

@@ -3,7 +3,7 @@
 @use './sass/components/card.scss';
 @use './sass/components/input';
 @use './sass/components/work.scss';
-
+@use './sass/components/profile.scss';
 * {
     border: 0;
     margin: 0;
@@ -11,7 +11,7 @@
     color: #fff;
 }
 body {
-background: linear-gradient(90deg, cl.color(reg), cl.color(darker));
+background: linear-gradient(90deg, cl.color(dark), cl.color(darker));
 }
 Link{
 

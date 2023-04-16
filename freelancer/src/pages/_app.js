@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+// import '../styles/sass/components/profile.css';
 import '../styles/index.scss';
 
 

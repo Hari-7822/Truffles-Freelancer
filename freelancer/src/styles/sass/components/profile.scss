@@ -1,0 +1,7 @@
+@use './mixins' as m;
+
+.c {
+    @include m.flex("column", "center", "center");
+    width: 100%;
+
+}
